@@ -1,0 +1,85 @@
+/* HEADER */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo-details img{
+    margin-top: 30px;
+    text-align: center;
+    line-height: 50px;
+    /* margin-left: 23px; */
+}
+.seach-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 22.4px;
+}
+.seach{
+    width: 600px;
+    background-color: #c4cbf1ba;
+    border: none;
+    color: black;
+    padding: 9px;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 15px 15px;
+    padding-left: 12px;
+    border-radius: 30px;
+    cursor: pointer;
+    outline: none;
+    /* width: 160%; */
+}
+.search-container i{
+    font-size: 24px;
+    color: rgb(97, 93, 93);
+    position: absolute;
+    left: 58%;
+    top: 39%;
+    /* transform: translateY(-50%); */
+}
+.search-container i::before{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.seach span{
+    margin-top: 15px;
+    color: rgb(97, 93, 93);
+    font-size: 15px;
+}
+.login_div{
+    margin-top: 15px;
+    display: flex;
+    margin-right: 30px;
+}
+.to-enter{
+    color: black;
+    font-weight: 600;
+    padding: 9px;
+    text-align: center;
+    font-size: 17px;
+    margin: 15px 15px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+.create_cont{
+    color: #2A3DA3;
+    font-weight: 600;
+    padding: 9px;
+    text-align: center;
+    font-size: 17px;
+    margin: 15px 15px;
+    margin-right: 50px;
+    cursor: pointer;
+}

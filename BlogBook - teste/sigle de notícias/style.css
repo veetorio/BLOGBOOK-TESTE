@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+/* CONTEÚDO DO MEIO */
+.content-container{
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    justify-content: center;
+    /* max-width: 80%; */
+    /* background-color: #2A3DA3; */
+    /* margin-right: 10%; */
+}
+.container{
+    max-width: 80%;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    /* background-color: blueviolet; */
+}
+#title_sigle{
+    line-height: 28px;
+    width: 100%;
+    max-width: 100%;
+    text-align: left; 
+    /* margin: auto; */
+}
+#info_sigle{
+    display: flex;
+    margin-top: 30px;
+}
+.dados{
+    margin-top: 15px;
+}
+#idName_single{
+    margin-left: 5px;
+}
+.wordId{
+    font-weight: 600;
+}
+#userName_single{
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 10px;
+}
+.ponto{
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+#dia_single{
+    margin-left: 5px;
+    font-weight: 500;
+    font-size: 14px;
+}
+hr{
+    margin-top: 12px;
+}
+#txt_sigle{
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 300;
+    width: 100%;
+}
+#img_sigle{
+    margin-top: 25px;
+    max-width: 100%;
+    /* margin-left: 40px; */
+}

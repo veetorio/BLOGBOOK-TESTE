@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tela de Login</title>
+</head>
+<body>
+    <main>
+        <section>
+            <div class="containerCadastro">
+                <form class="containerInfos" action="">
+                    <img src="./imgs/titleLogin.svg" alt="" class="titleLogin">
+                    <p class="namesTops">Seu e-mail</p>
+                    <input type="text" placeholder="Digite seu e-mail ou username" class="txtCampos" id="emailTxt" name="email" required>
+                    <p class="namesTops">Sua senha</p>
+                    <input type="password" placeholder="No mínimo 8 letras e símbolos" class="txtCampos" id="senhaTxt" required>
+                    <span class="forgotSenha">Esqueceu sua senha?</span>
+                    <button type="button" id="btn-cadastro" onclick="auth()" class="btnToEnter">Entrar</button>
+                    <input type="button" value="Entrar com o Google" class="toEnterGoogle">
+                </form>
+            </div>
+        </section>
+    </main>
+    <script src="login.js"></script>
+</body>
+</html>

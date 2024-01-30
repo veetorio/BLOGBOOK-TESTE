@@ -1,0 +1,60 @@
+/* NAV RIGTH */
+.right-nav{
+    height: 100%;
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 30px;
+    transition: width 0.2s linear;
+    /* overflow-y: scroll; */
+    /* background-color: #2A3DA3; */
+}
+/* .right-nav::-webkit-scrollbar{
+    display: none;
+} */
+.initial{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    margin-right: 30px;
+}
+.mais2{
+    cursor: pointer;
+}
+.rowBooks{
+    margin-top: 5px;
+    width: 90%;
+}
+.box_books{
+    display: flex;
+    padding: 18px;
+}
+.box_books img{
+    cursor: pointer;
+}
+.info_book{
+    padding: 12px;
+    cursor: pointer;
+}
+.important{
+    display: flex;
+}
+.elements_book{
+    padding-top: 5px;
+}
+.elements_book img{
+    width: 21px;
+}
+.elements_book span{
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+.elements_book p{
+    font-size: 13px;
+    padding: 5px;
+}
+.row_right{
+    width: 250px;
+    margin-left: 12px;
+}

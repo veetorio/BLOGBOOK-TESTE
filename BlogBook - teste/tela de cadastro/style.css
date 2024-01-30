@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+.elements{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo_icon{
+    margin-left: 8%;   
+    margin-top: 10px;
+}
+.cadastroImg{
+    margin-left: 100px;
+    margin-top: 60px;
+}
+.titleCadastro{
+    margin-left: 45px;
+}
+.containerCadastro{
+    /* background-color: rgb(190, 154, 226); */
+    background-color: #d8def6;
+    width: 456px;
+    height: 530px;
+    margin-right: 80px;
+    margin-top: 40px;
+    border-radius: 16px;
+}
+.containerInfos{
+    padding: 50px;
+    height: 100%;
+}
+.namesTops{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 101%;
+    margin-top: 25px;
+}
+.txtCampos{
+    width: 100%;
+    height: 45px;
+    padding: 16px 13px;
+    margin-top: 5px;
+    border-radius: 7px;
+    border: 1px solid rgba(150, 156, 208, 0.24);
+    outline-color: rgb(190, 154, 226);
+}
+.temConta{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: 101%; */
+}
+.toEnter{
+    margin-left: 3px;
+    color: var(--color-brand, #2A3DA3);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+    cursor: pointer;
+}
+.btnToEnter{
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 127px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    background: var(--color-brand, #2A3DA3);
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+.toEnterGoogle{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+    padding: 12px 95px;
+    align-items: center;
+    border-radius: 7px;
+    border: 1px solid rgba(150, 156, 208, 0.20);
+    background: rgba(255, 255, 255, 0.20);
+    background-image: url(./imgs/iconGoogle.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 80px;
+    cursor: pointer;
+}
