@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="../BlogBook - teste/css/header.css">
-    <link rel="stylesheet" href="../BlogBook - teste/css/leftNav.css">
-    <link rel="stylesheet" href="../BlogBook - teste/css/rightNavSingle.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/leftNav.css">
+    <link rel="stylesheet" href="../css/rightNavSingle.css">
+    <link rel="stylesheet" href="../css/footer.css">
     <!-- Boxiocns CND Link -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Análise Page</title>
@@ -62,10 +63,28 @@
         </nav>
 
         <section class="content-container">
-            <section class="content-container">
+            <div class="container">
+                <span>Últimas Análises</span>
+                <hr>
+                <div class="containerAnalises">
+                    <div id="info_sigle">
+                        <div class="imgUser_sigle">
+                            <img src="./imgs/dogUser.svg" alt="" id="user_sigle">
+                        </div>
+                        <div class="dados">
+                        <span id="userName_single">Francisco oceano 54</span>
+                        <span id="idName_single"><span class="wordId">ID:</span> #3mr2u33248uyn4283</span>
+                        <span class="ponto"></span>
+                        <span id="dia_single">3 dias atrás</span>
+                        </div>
+                    </div>
+                    <div class="bookDados">
+                        <img src="./imgs/books/book1.svg" alt="">
+                    </div>
+                </div>
                 
-                    
-            </section>
+                <hr>
+            </div>
         </section>
 
         <nav class="right-nav">
@@ -113,5 +132,24 @@
             </div>
         </nav>
     </main>
+    <footer>
+        <div class="container_footer">
+            <div class="row_footer">
+                <ul class="footer_ul">
+                    <li><a href="#" class="color">Sobre a oxybook</a></li>
+                    <li><a href="#" class="color">Política de Privacidade</a></li>
+                    <li><img src="./imgs/logo_footer.svg" alt=""></li>
+                    <li><a href="#" class="color">Termos de Uso</a></li>
+                    <div class="social_medias">
+                        <li><i class='bx bxl-instagram color'></i></li>
+                        <li><i class='bx bxl-linkedin-square color'></i></li>
+                        <li><i class='bx bxl-facebook-circle color'></i></li>
+                    </div>
+                    <a href=""><img src="./imgs/arrow.svg" alt="" id="arrow_footer"></a>
+                </ul>
+            </div>
+        </div>
+        <span class="span_footer">© 2024 Oxybok. Todos os direitos reservados</span>
+    </footer>
 </body>
 </html>
