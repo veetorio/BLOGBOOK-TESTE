@@ -22,6 +22,10 @@ main{
     width: 100%;
     padding: 0 5%;
 }
+.infoIcon{
+    display: flex;
+    
+}
 hr{
     width: 90%;
 }
