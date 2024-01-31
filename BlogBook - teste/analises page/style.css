@@ -12,7 +12,7 @@
     flex: 1;
     padding: 10px;
     /* justify-content: center; */
-    background-color: #2A3DA3;
+    /* background-color: #2A3DA3; */
 }
 .container{
     max-width: 95%;
@@ -20,7 +20,7 @@
     margin-left: 20px;
     flex-wrap: wrap;
     margin-top: 25px;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 #info_sigle{
     display: flex;
@@ -53,6 +53,8 @@
     font-weight: bold;
     margin-left: 40px;
     cursor: pointer;
+    border: none;
+    outline: none;
 }
 #dia_single{
     margin-left: 5px;
