@@ -12,7 +12,7 @@
 }
 main{
     display: grid;
-    grid-template-columns: 20% 60% 20%;
+    grid-template-columns: 20% 55% 25%;
     margin-top: -50px;
 }
 .information{
@@ -27,15 +27,27 @@ hr{
 }
 
 #content-info{
-    margin-top: 15%;
+    padding-top: 8%;
+    margin-top: 5.9%;
+    border-left: 3px solid rgba(234, 234, 234, 0.529);
+    border-right: 3px solid rgba(234, 234, 234, 0.529);
 }
-.Icon{
-    position: absolute;
-    left: 5%;
+.initial{
+    display: flex;
+    padding: 20% 0 5% 0;
+    gap: 30%;
 }
-.important > img{
-    width: 100px;
-    height: 100px;
+.box_books > img{
+    width: 120px;
+    height: 120px;
+    align-self: center;
+}
+.box_books{
+    width: 100%;
+    display: flex;
+    gap: 10%;
+    margin-top: 50px;
+    padding: 10px 0 0 0;
 }
 #title_h1{
     margin-left: -50%;
@@ -44,6 +56,33 @@ hr{
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 2%;
+    gap:2%;
 }
-
+.info_book{
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    gap: 20px;
+    padding:0 5% 5% 5%;
+}
+.infoIcon{
+    margin-right: 67%;
+}
+.right-nav{
+    width: 100%;
+    gap: 20px;
+    padding-left: 5%;
+}
+.important{
+    display: flex;
+    gap: 10px;
+}
+.elements_book{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.Icon{
+    position: absolute;
+    left: 5%;
+}
